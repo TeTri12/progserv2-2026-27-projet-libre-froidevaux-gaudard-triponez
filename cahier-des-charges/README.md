@@ -12,9 +12,12 @@
 
 Le projet consiste à créer un site web consacré à la **biologie marine**.
 
-Le site permettra de consulter un catalogue regroupant différentes espèces marines, classées par catégories.
+Le site permettra de consulter un catalogue regroupant différentes espèces
+marines, classées par catégories.
 
-Une partie privée sera accessible aux utilisateurs connectés. Elle leur permettra de prendre des notes personnelles, à la manière d'un **journal de plongée ou d'étude de la biologie marine**.
+Une partie privée sera accessible aux utilisateurs connectés. Elle leur
+permettra de prendre des notes personnelles, à la manière d'un **journal de
+plongée ou d'étude de la biologie marine**.
 
 ---
 
@@ -110,7 +113,8 @@ Une note contient notamment :
 - **Description**
 - **Espèces observées**
 
-Les espèces observées peuvent être sélectionnées parmi celles présentes dans le catalogue.
+Les espèces observées peuvent être sélectionnées parmi celles présentes dans le
+catalogue.
 
 ## Modifier une note
 
@@ -143,7 +147,8 @@ L'administrateur peut :
 
 # Fonctionnalités optionnelles
 
-Les fonctionnalités suivantes pourront être développées **si le temps le permet**.
+Les fonctionnalités suivantes pourront être développées **si le temps le
+permet**.
 
 ## Gestion de la langue
 
@@ -153,7 +158,8 @@ Les fonctionnalités suivantes pourront être développées **si le temps le per
 
 - Ajouter une espèce au catalogue.
 - Modifier uniquement les espèces ajoutées par l'utilisateur.
-- Ajouter une page d'accueil privée avec un tableau de bord basé sur les entrées du journal.
+- Ajouter une page d'accueil privée avec un tableau de bord basé sur les entrées
+  du journal.
 
 ### Exemple de statistiques
 
@@ -169,7 +175,8 @@ Le tableau de bord pourrait afficher :
 - Désactiver un compte utilisateur.
 - Tableau de bord administrateur
 
-Le tableau de bord permet d'avoir une vue générale de l'application, notamment : Le nombre d'utilisateurs et le nombre d'espèces.
+Le tableau de bord permet d'avoir une vue générale de l'application, notamment :
+Le nombre d'utilisateurs et le nombre d'espèces.
 
 ---
 
@@ -184,4 +191,13 @@ La base de données contiendra notamment les tables suivantes :
 - `journal_entries`
 - `journal_species`
 
-La table `journal_species` sera une **table de liaison** entre les entrées du journal et les espèces observées.
+La table `journal_species` sera une **table de liaison** entre les entrées du
+journal et les espèces observées.
+
+# Maquette
+
+La maquette de l'application a été réalisée avec Figma. Elle présente les
+principales pages et interfaces de TeamBoard.
+
+**Lien vers la maquette Figma :
+**https://www.figma.com/design/jJRh51iHL7Uik2ykq2VzWW/Untitled?node-id=0-1&t=UKOG68YLylef03Og-1
